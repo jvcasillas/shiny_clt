@@ -11,7 +11,7 @@ library("patchwork")
 ui <- fluidPage(theme = shinytheme("spacelab"),
   
   # Application title
-  titlePanel("CLT"),
+  titlePanel("CLT", windowTitle = "CLT"),
   
   # Sidebar with a slider input for number of bins 
   sidebarLayout(
