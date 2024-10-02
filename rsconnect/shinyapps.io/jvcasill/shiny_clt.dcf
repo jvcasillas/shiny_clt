@@ -1,0 +1,12 @@
+name: shiny_clt
+title: shiny_clt
+username:
+account: jvcasill
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 252976
+bundleId: 1159366
+url: https://jvcasill.shinyapps.io/shiny_clt/
+when: 1514924680.84887
+asMultiple: FALSE
+asStatic: FALSE
