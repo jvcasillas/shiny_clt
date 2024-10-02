@@ -4,11 +4,24 @@ library("tidyr")
 library("dplyr")
 library("shinythemes")
 library("patchwork")
+library("bslib")
+
+theme <- bs_theme(
+  # Controls the default grayscale palette
+  bg = "#fff", fg = "#202123",
+  # Controls the accent (e.g., hyperlink, button, etc) colors
+  primary = "#cc0033", secondary = "#48DAC6",
+  base_font = c("Grandstander", "sans-serif"),
+  code_font = c("Courier", "monospace"),
+  heading_font = "'Helvetica Neue', Helvetica, sans-serif",
+  # Can also add lower-level customization
+  "input-border-color" = "#cc0033"
+)
 
 # shinylive::export("app", "docs")
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(theme = shinytheme("spacelab"),
+ui <- fluidPage(theme = theme,
   
   # Application title
   titlePanel("CLT", windowTitle = "CLT"),
